@@ -12,7 +12,7 @@
                     <img :src="currentfront" alt="Pokemon Frente">
                     </figure>
                     <figure>
-                    <img :src="currentback" alt="Pokemon Costas">
+                    <img v-if="currentback != null" :src="currentback" alt="Pokemon Costas">
                     </figure>
                     <!--
                     <figure>
